@@ -8,7 +8,7 @@ const server =
     (req,res)=> {               //Anonymous function to handle the request
       res.statusCode = 200      //code for OK
       res.setHeader('Content-Type', 'text/plain') //Set the mime type
-      res.end('I hate flying , but I love airport')    //Close the response and provide content
+      res.end('East or west, I am the best')    //Close the response and provide content
     }                           //No return needed, we modified the res object we got
 )
 
